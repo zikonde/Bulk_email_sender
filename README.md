@@ -1,6 +1,6 @@
-# Bulk Email Sender
+# RapidMailer
 
-**Bulk Email Sender** is a Python application I developed that provides a user-friendly interface for sending personalized bulk emails. The program allows users to customize emails using parameters extracted from brackets within the email body. It supports attachments and saves sent emails to the "sent" folder on the email server.
+**RapidMailer** is a Python application I developed that provides a user-friendly interface for sending personalized bulk emails. The program allows users to customize emails using parameters extracted from brackets within the email body. It supports attachments and saves sent emails to the "sent" folder on the email server.
 
 ## Features
 
@@ -31,10 +31,10 @@
    pip install custom TKinter
    ```
 
-3. **Run the Application**: Execute the Python script to launch the Bulk Email Sender application.
+3. **Run the Application**: Execute the Python script to launch the RapidMailer application.
 
    ```bash
-   python bulk_email_sender.py
+   python main.py
    ```
 
 4. **Configure Email Settings**: Enter your email, host, and password details. Select the appropriate host from the provided options (`gmail.com`, `qq.com`, `163.com`).
