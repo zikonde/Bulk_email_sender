@@ -8,7 +8,7 @@
 
 - **Dark Mode**: The application features a dark mode which I find tends to give a visually appealing experience.
 
-- **Multi-Platform Support**: As a Python script, the application can run on various platforms, offering flexibility to users. For example, auto-py-to-exe can be used to quickly convert it into an exe file for Windows users.
+- **Multi-Platform Support**: As a Python script, the application can run on various platforms, offering flexibility to users. For example, auto-py-to-exe can be used to quickly convert it into an exe file for Windows users. Make sure to include the additional CTK files when converting to an application file, or else the GUi wwwill nott load.
 
 - **Parameterized Emails**: Users can customize emails by including parameters within curly brackets in the email body. The program dynamically replaces these parameters with corresponding values from an Excel file.
 
