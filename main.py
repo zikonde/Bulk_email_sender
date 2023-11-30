@@ -18,7 +18,7 @@ class BulkEmailSender(ctk.CTk):
         ctk.CTk.__init__(self)
         ctk.set_appearance_mode('dark')
         ctk.set_default_color_theme('dark-blue')
-        self.title("Bulk Email Sender - by Zikonde")
+        self.title("RapidMailer - by Zikonde")
         self.iconbitmap(r'C:\Users\hp\Desktop\MastersApplication_研究生申请\bulk_email_sender\1\favicon.ico')
         self.frame = tk.Frame(master=self,background='#1A1A1A')
         self.frame.pack(fill="both",expand=True , padx=20 , pady=60)
