@@ -21,7 +21,7 @@
 1. **Clone the Repository**: Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/zikonde/Bulk_email_sender.git
+   git clone https://github.com/zikonde/RapidMailer.git
    ```
 
 2. **Install Dependencies**: Install the required Python libraries.
