@@ -1,18 +1,14 @@
-# Bulk_email_sender
-Thought of this app idea during my application for my master's program to help me send more and yet still personalized email. Hopefully you find it helpful too.
-
-
 # Bulk Email Sender
 
-**Bulk Email Sender** is a Python application developed by Zikonde that provides a user-friendly interface for sending bulk emails. The program allows users to customize emails using parameters extracted from brackets within the email body. It supports attachments and saves sent emails to the "sent" folder on the email server.
+**Bulk Email Sender** is a Python application I developed that provides a user-friendly interface for sending personalized bulk emails. The program allows users to customize emails using parameters extracted from brackets within the email body. It supports attachments and saves sent emails to the "sent" folder on the email server.
 
 ## Features
 
-- **User-Friendly Interface**: Built using the Tkinter library, the application provides a clean and intuitive user interface for easy navigation.
+- **User-Friendly Interface**: Built using the CTkinter library, the application provides a clean, modern, and intuitive user interface for easy navigation.
 
-- **Dark Mode**: The application features a dark mode for a visually appealing experience.
+- **Dark Mode**: The application features a dark mode which I find tends to give a visually appealing experience.
 
-- **Multi-Platform Support**: As a Python script, the application can run on various platforms, offering flexibility to users.
+- **Multi-Platform Support**: As a Python script, the application can run on various platforms, offering flexibility to users. For example, auto-py-to-exe can be used to quickly convert it into an exe file for Windows users.
 
 - **Parameterized Emails**: Users can customize emails by including parameters within curly brackets in the email body. The program dynamically replaces these parameters with corresponding values from an Excel file.
 
@@ -25,13 +21,14 @@ Thought of this app idea during my application for my master's program to help m
 1. **Clone the Repository**: Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/bulk-email-sender.git
+   git clone https://github.com/zikonde/Bulk_email_sender.git
    ```
 
 2. **Install Dependencies**: Install the required Python libraries.
 
    ```bash
-   pip install pandas openpyxl
+   pip install pandas
+   pip install custom TKinter
    ```
 
 3. **Run the Application**: Execute the Python script to launch the Bulk Email Sender application.
@@ -58,7 +55,7 @@ Thought of this app idea during my application for my master's program to help m
 
 ## Acknowledgments
 
-This application utilizes various Python libraries, including Tkinter, Pandas, and Openpyxl. Special thanks to Zikonde for developing this useful tool.
+This application utilizes various Python libraries, including CTkinter, Pandas, and email. Special thanks to the authors for helping me develop this useful tool.
 
 **Disclaimer**: Ensure that your use of this application complies with the terms of service of your email provider. The application may require adjustments based on your specific email provider's settings.
 
